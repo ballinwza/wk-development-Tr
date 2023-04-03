@@ -1,0 +1,54 @@
+@media only screen and (max-width: 992px){
+    .primary-navbar-container{
+        #basic-navbar-nav {
+            flex-basis: 100% !important;
+        }
+
+        .navbar-nav{
+            background-color: white;
+            --bs-nav-link-color: black;
+            text-align: center;
+            padding: 20px 0;
+            margin: 20px 0;
+            .nav-item{
+                color: black !important;
+            }
+            .nav-link{
+                &:hover{color: black;}
+                &:focus{color: black;}
+                &:active{color: black;}
+            }
+
+        }
+    }
+}
+.primary-navbar-container{
+    position: relative;
+    
+    nav{
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 20;
+        display: flex !important;
+        justify-content: space-around !important;
+        align-items: center !important;
+        padding: 10px 0;
+        width: 100%;
+        font-size: 1.2em;
+        flex-wrap: wrap;
+
+        
+
+        &> div{
+            flex-basis: content !important;
+            flex-grow: 0 !important;
+        }
+
+        .navbar-nav{
+            &> div{
+                margin: 0 5px;
+            }
+        }
+    }
+} 

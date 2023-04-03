@@ -1,0 +1,30 @@
+.primary-ourService-container{
+    margin: 80px 10% 20px 10%;
+    h4{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .service-card-container{
+        margin: 20px;
+
+        h5{
+            color: #393939;
+            margin: 0 0 10px 0;
+        }
+        p{
+            color: #A4A4A4;
+        }
+        svg{
+            height: 35px;
+            margin: 20px 0;
+        }
+    
+    
+        &>div>div {
+            text-align: center;
+            
+        }
+    }
+}
+

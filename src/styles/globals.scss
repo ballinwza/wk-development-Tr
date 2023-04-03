@@ -1,0 +1,58 @@
+@import 'variable.scss';
+
+*{
+  font-family: sans-serif;
+  user-select: none;
+}
+body{
+  font-size: 62.5% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+
+  h4{
+    font-weight: 500;
+  }
+  
+  h5{
+    font-weight:500;
+    font-size: 1.5em;
+    margin: 0 0 10px 0;
+  }
+}
+
+a{
+  outline: none;
+}
+
+.row{
+  margin: 0 !important;
+  --bs-gutter-x: 0 !important;
+}
+.relative{position: relative;}
+.orangeFont { color : $orangeColor }
+.bold{font-weight: bold;}
+
+.footer{
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 0.9em;
+}
+
+
+@media only screen and (max-width: 992px){
+  body{
+    font-size: 60% !important
+  }
+}
+
+@media only screen and (max-width: 576px){
+  body{
+    font-size: 50% !important
+  }
+}
+
+@import './bannerSlide.scss';
+@import './navbar.scss';
+@import './ourServiceSection.scss';
+@import './greatWorkTab.scss';
+@import './counterSection.scss';
